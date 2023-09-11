@@ -1,0 +1,18 @@
+.odd {
+	background-color: lightpink;
+}
+
+#four {
+	background-color: lightgreen;
+	font-size: 24px;
+	text-weight: bold;
+}
+
+#three {
+	font-size: 24px;
+}
+
+#second {
+	font-size: 36px;
+	color: blue;
+}
