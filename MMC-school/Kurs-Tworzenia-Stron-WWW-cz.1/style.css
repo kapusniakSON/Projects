@@ -5,61 +5,73 @@
 }
 
 body {
-	font-family: 'Montserat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background-color: #333;
 	font-size: 36px;
 	color: #fff;
-	text-transform: uppercase;
 }
 
-section {
-	margin-top: 200px;
-	margin-bottom: 50px;
-	height: 300px;
-	width: 100%;
-	background-color: #ddd;
-	position: relative;
-}
-
-div {
-	height: 100px;
-	width: 100px;
-	border: 3px solid black;
-}
-
-.abs{
+button {
+	font-family: 'Nunito';
+	width: 120px;
 	position: absolute;
-	top: 0;
+	top: 50px;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	font-weight: bold;
+	border-width: 3px;
+	border-radius: 5px;
+	border-color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	cursor: pointer;
 }
 
-.red {
-	background-color: tomato;
-	left: 0;
+.btn-zoom {
+	left: 25%;
+	transform: translateX(-50%);
+}
+
+.btn-move {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.btn-color {
+	left: 75%;
+	transform: translateX(-50%);
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+	transition: 1s;
+}
+
+.square {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 150px;
+	border-radius: 25px;
+	filter: blur(2px);
 }
 
 .blue {
 	background-color: royalblue;
-	left: 100px;
+	left: 25%;
+	transform: translateX(-50%);
+}
+
+.red {
+	background-color: red;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .green {
-	background-color: greenyellow;
-	left: 200px;
-}
-
-.gold {
-	background-color: gold;
-	right: 0;
-	top: 200px;
-}
-
-.silver {
-	background-color: silver;
-	right: 0;
-	top: 100px;
-}
-
-.black {
-	background-color: black;
-	display: inline-block;
+	background-color: lime;
+	left: 75%;
+	transform: translateX(-50%);
 }
